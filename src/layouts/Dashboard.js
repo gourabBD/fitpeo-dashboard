@@ -14,7 +14,7 @@ import TopProducts from "../components/MiddleLastPart/TopProducts";
 
 const Dashboard = () => {
   return (
-    <div className="lg:flex md:grid sm:grid min-h-screen">
+    <div className="lg:flex md:grid sm:grid min-h-screen ">
       <section className=" min-h-screen lg:w-2/12 rounded-2xl ">
         <MenuDashBoard></MenuDashBoard>
       </section>
@@ -23,9 +23,9 @@ const Dashboard = () => {
         data-theme="corporate"
         className="lg:w-10/12 flex min-h-screen rounded-tl-2xl"
       >
-        <div className=" rounded-tl-2xl  w-full   p-5 min-h-screen">
+        <div className=" rounded-tl-2xl  w-full   p-3 min-h-screen">
           <Navbar></Navbar>
-          <div className="lg:flex   justify-evenly min-h-screen">
+          <div className="lg:flex lg:flex-row flex flex-col-reverse md:flex md:flex-col-reverse sm:flex sm:flex-col-reverse justify-evenly min-h-screen">
             <div className=" lg:w-9/12 mt-5  ">
               {/* middle first part start */}
               <div className="lg:grid lg:grid-cols-3 gap-5 mb-5 mt-1">
@@ -159,9 +159,7 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-        {/* <section className="lg:w-4/12 ">
-       
-      </section> */}
+        
       </section>
     </div>
   );

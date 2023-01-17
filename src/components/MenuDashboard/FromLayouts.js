@@ -35,12 +35,12 @@ const FromLayouts = () => {
       <div className="flex justify-start p-5">
         <p>COMPONENTS</p>
       </div>
-      <div>
-      <div className="collapse collapse-arrow">
+      <div className=" ">
+      <div className="collapse collapse-arrow ">
           <input type="checkbox" className="peer" />
-          <div className="collapse-title bg-dark  peer-checked:bg-dark peer-checked:text-white flex justify-start items-center text-lg p-5">
+          <div className="collapse-title bg-dark  peer-checked:bg-dark peer-checked:text-white flex  justify-start items-center text-lg p-5">
             <BsCollection className="mr-3"></BsCollection>
-            <span className="text-lg">UI Elements</span>
+            <span className="text-lg ">UI Elements</span>
           </div>
         </div>
 
