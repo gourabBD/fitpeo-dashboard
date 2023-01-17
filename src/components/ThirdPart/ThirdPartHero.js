@@ -42,7 +42,7 @@ const ThirdPartHero = () => {
             <p className="text-2xl font-medium">1,269</p>
             <p className="text-xl text-gray-500 font-medium">Products</p>
           </div>
-          <div className="divider lg:divider-horizontal"></div>
+          <div className="divider sm:divider-horizontal md:divider-horizontal divider-horizontal lg:divider-horizontal"></div>
           <div className=" text-center">
             <p className="text-2xl font-medium">5.2k</p>
             <p className="text-xl text-gray-500 font-medium">Followers</p>
