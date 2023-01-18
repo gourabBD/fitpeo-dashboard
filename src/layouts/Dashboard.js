@@ -111,9 +111,13 @@ const Dashboard = () => {
                   </div>
                 </div>
 
-                <div className="lg:grid lg:grid-cols-2  mt-5">
-                  <AnotherBarChart></AnotherBarChart>
-                  <WaterFallCharts></WaterFallCharts>
+                <div className="lg:flex overflow-hidden">
+                  <div className="lg:w-4/12">
+                    <AnotherBarChart></AnotherBarChart>
+                  </div>
+                  <div className="lg:w-8/12">
+                    <WaterFallCharts></WaterFallCharts>
+                  </div>
                 </div>
               </div>
 
@@ -159,7 +163,6 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-        
       </section>
     </div>
   );

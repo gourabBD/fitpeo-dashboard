@@ -70,12 +70,12 @@ const WaterFallCharts = () => {
     },
   ];
 
-  const ticksData = ["0k", "10k", "20k", "30k", "40k"];
+  
   return (
     <div className="w-full ">
       <ResponsiveContainer minHeight={300}  width="95%" height="100%">
-        <BarChart width={100}  height={500} data={data}>
-          <Legend></Legend>
+        <BarChart width={100}  height={500} data={data}  >
+          
           <Tooltip></Tooltip>
           <defs>
                 <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
@@ -84,7 +84,7 @@ const WaterFallCharts = () => {
                   <stop offset="100%" stopColor="#8884d8" stopOpacity={0} />
                 </linearGradient>
                 <linearGradient id="colorPv" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="10%" stopColor="#a39f9e" stopOpacity={0.8} />
+                  <stop offset="10%" stopColor="#a39f9e" stopOpacity={0.6} />
                   <stop offset="50%" stopColor="#8884d8" stopOpacity={0} />
                   <stop offset="100%" stopColor="#8884d8" stopOpacity={0} />
                 </linearGradient>
@@ -93,13 +93,14 @@ const WaterFallCharts = () => {
               <YAxis  domain={[0, 40]}
             tickFormatter={(tickValue) => `${tickValue}k`} />
               <Bar
-                maxBarSize={30}
+              
+                maxBarSize={12}
                 dataKey="sales"
                 fill="url(#colorPv)"
                 radius={10}
               />
               <Bar
-                maxBarSize={30}
+                maxBarSize={12}
                 dataKey="customers"
                 fill="url(#colorUv)"
                 radius={10}

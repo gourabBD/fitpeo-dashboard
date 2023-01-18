@@ -12,37 +12,37 @@ import {
 const ThirdPartAreaCharts = () => {
   const data = [
     {
-      name: "Jan",
+      name: "Mon",
       Previous: 40,
       Current: 20,
       amt: 2400,
     },
     {
-      name: "Feb",
+      name: "Tue",
       Previous: 35,
       Current: 58,
       amt: 2210,
     },
     {
-      name: "Mar",
+      name: "Wed",
       Previous: 60,
       Current: 48,
       amt: 2290,
     },
     {
-      name: "Apr",
+      name: "Thu",
       Previous: 35,
       Current: 85,
       amt: 2000,
     },
     {
-      name: "May",
+      name: "Fri",
       Previous: 55,
       Current: 52,
       amt: 2181,
     },
     {
-      name: "Jun",
+      name: "Sat",
       Previous: 45,
       Current: 58,
       amt: 2500,
