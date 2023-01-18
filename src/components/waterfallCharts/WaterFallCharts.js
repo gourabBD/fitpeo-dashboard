@@ -74,7 +74,7 @@ const WaterFallCharts = () => {
   return (
     <div className="w-full ">
       <ResponsiveContainer minHeight={300}  width="95%" height="100%">
-        <BarChart width={100}  height={500} data={data}  >
+        <BarChart width={100}   height={500} data={data}  >
           
           <Tooltip></Tooltip>
           <defs>
@@ -84,7 +84,7 @@ const WaterFallCharts = () => {
                   <stop offset="100%" stopColor="#8884d8" stopOpacity={0} />
                 </linearGradient>
                 <linearGradient id="colorPv" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="10%" stopColor="#a39f9e" stopOpacity={0.6} />
+                  <stop offset="10%" stopColor="#a39f9e" stopOpacity={0.15} />
                   <stop offset="50%" stopColor="#8884d8" stopOpacity={0} />
                   <stop offset="100%" stopColor="#8884d8" stopOpacity={0} />
                 </linearGradient>

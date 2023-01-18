@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-import { PieChart, Pie, Sector, Cell,legend, ResponsiveContainer } from "recharts";
+import { PieChart, Pie, Sector, Cell,legend, ResponsiveContainer, Legend } from "recharts";
 import { BsThreeDots } from "react-icons/bs";
 const ThirdPieCharts = () => {
   const data = [
@@ -33,6 +33,7 @@ const ThirdPieCharts = () => {
       <stop offset="95%" stopColor="#d0def5" stopOpacity={1}/>
     </linearGradient>
           </defs>
+         
         <Pie
           data={data}
           cx={100}
